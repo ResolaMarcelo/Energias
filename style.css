@@ -1,0 +1,147 @@
+/* body    {
+    background: url(https://wallpaperaccess.com/full/6329154.jpg);
+} */
+
+#titulo{
+ text-align: center;
+ 
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+#botones-energia   {
+ 
+ padding-left: 43.2%;
+ display: inline-flex;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 40px;
+ 
+}
+
+#energia1   {
+   display: inline-flex;
+   align-items: center;
+   width: 100px;
+   height: 100px;
+   background: #141414;
+   color: #fff;
+   font-size: 20px;
+   justify-content: center;
+   font-weight: 500;
+   border: none;
+   cursor: pointer;
+   text-transform: uppercase;
+   transition: .3s ease all;
+   border-radius: 5px;
+}
+
+#energia1:hover     {
+    background-color: green;
+}
+
+#energia0:hover     {
+    background-color: red;
+}
+
+#energia0   {
+    display: inline-flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: #141414;
+    color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+.botones-energia  {
+    width: 100%;
+    height: 100%;
+}
+
+
+.botones-ronda  {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#botones-ronda  {
+   
+    padding-left: 40.2%;
+    display: inline-flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-top: 100px;
+}
+
+#sig    {
+    display: inline-flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background: #141414;
+    color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+#reiniciar  {
+    display: inline-flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background: #141414;
+    color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+#energias   {
+    margin: 6% 0 0 48%;
+    text-align: center;
+    font-size: 500%;
+    font-family: sans-serif;
+    text-decoration: underline;
+    background-color: white;
+    background-position: center;width: 150px;
+    height: 100%;
+    width: 5%;
+    
+}
